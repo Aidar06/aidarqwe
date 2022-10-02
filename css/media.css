@@ -1,0 +1,683 @@
+@media (max-width: 1440px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .service-block {
+        width: 340px;
+    }
+
+    .project-block div {
+        width: 340px;
+    }
+
+    .project-block div img{
+        width: 100%;
+    }
+
+    .teem-block {
+        width: 260px;
+    }
+
+    .teem-block img{
+        width: 100%;
+    }
+
+    .reviews-block div {
+        width: 340px
+    }
+
+    .reviews-block div img{
+        width: 100%;
+    }
+
+    .footer-block {
+        width: 20%;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .service-block {
+        width: 300px;
+        height: 250px;
+    }
+
+    .service-block p {
+        font-size: 12px;
+    }
+
+    .project-block div {
+        width: 300px;
+        height: 310px;
+    }
+
+    .project-block p {
+        font-size: 20px;
+    }
+
+    .project-block div img{
+        width: 100%;
+    }
+
+    .teem-block {
+        width: 220px;
+        height: 320px;
+    }
+
+    .teem-block h1 {
+        font-size: 16px;
+    }
+
+    .teem-block img{
+        width: 100%;
+    }
+
+    .techno-block div{
+        margin: 15px 15px;
+    }
+
+    .reviews-block div {
+        width: 300px
+    }
+
+    .reviews-block div img{
+        width: 100%;
+    }
+
+    .massage-block-input {
+        width: 35%;
+    }
+
+    .massage-block-input1 {
+        width: 90%;
+    }
+
+    .footer-block {
+        width: 20%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .navbar a {
+        font-size: 15px;
+    }
+
+    .hero h1 {
+        font-size: 94px;
+    }
+
+    .hero p {
+        font-size: 22px;
+    }
+
+    .service-block {
+        width: 290px;
+        height: 240px;
+    }
+
+    .project-block div {
+        width: 290px;
+        height: 300px;
+    }
+
+    .teem-block {
+        width: 210px;
+        height: 300px;
+    }
+
+    .techno-label label {
+        font-size: 20px;
+    }
+
+    .reviews-block div {
+        width: 290px;
+    }
+
+    .vacancies h1 {
+        font-size: 32px;
+    }
+
+    .footer a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .open-hamburger-menu{
+        display: block;
+    }
+
+    .navbar nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 85px;
+        padding-top: 180px
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .service-title {
+        font-size: 30px;
+    }
+
+    .service-p {
+        font-size: 20px;
+    }
+
+    .service {
+        padding: 50px 0;
+    }
+
+    .project-title {
+        font-size: 30px;
+    }
+
+    .project-block div {
+        width: 220px;
+        height: 250px;
+    }
+
+    .project-block h1 {
+        font-size: 20px;
+    }
+
+    .project-block p {
+        font-size: 15px;
+    }
+
+    .project {
+        padding: 30px 0;
+    }
+
+    .teem-title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .teem-block {
+        width: 240px;
+        height: 320px;
+        margin-top: 20px;
+    }
+
+    .teem {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .techno-title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .techno-label div label {
+        font-size: 16px;
+        padding: 0px 35px;
+    }
+
+    .techno-block div {
+        width: 60px;
+        height: 60px;
+    }
+
+    .techno-block p {
+        font-weight: 300;
+        font-size: 9px;
+    }
+
+    .techno-block {
+        padding-top: 30px;
+    }
+
+    .reviews-title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .reviews-btn button {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .reviews {
+        padding: 30px 0;
+    }
+
+    .reviews-block div {
+        width: 220px;
+    }
+
+    .reviews-block p {
+        font-size: 15px;
+    }
+
+    .vacancies-title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .vacancies h1 {
+        font-size: 25px;
+    }
+
+    .vacancies {
+        padding: 30px 0;
+    }
+
+    .faq-title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .faq-block h1 {
+        font-size: 20px;
+    }
+
+    .faq {
+        padding: 30px 0;
+    }
+
+    .massage-title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .massage-block-input {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .massage-block-input1 {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .massage-block {
+        height: 390px;
+        margin: 30px 0;
+    }
+
+    .footer a {
+        font-size: 12px;
+    }
+
+    .footer-p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 65px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero button{
+        font-size: 15px;
+    }
+
+    .service-p {
+        font-size: 16px;
+    }
+
+    .service-block {
+        width: 250px;
+        height: 200px;
+    }
+
+    .service-block h1 {
+        font-size: 20px;
+    }
+
+    .service-block p {
+        font-size: 10px;
+    }
+
+    .service {
+        padding: 10px 0;
+    }
+
+    .project-title {
+        padding-top: 50px;
+    }
+
+    .project-block div {
+        width: 165px;
+        height: 180px;
+    }
+
+    .project-block h1 {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .project-block p {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .teem-title {
+        padding-top: 30px;
+    }
+
+    .teem {
+        padding: 30px 0;
+    }
+
+    .techno-title {
+        padding-top: 30px;
+    }
+
+    .techno-label div label {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .techno {
+        padding: 30px 0;
+    }
+
+    .techno-block div {
+        margin: 10px 10px;
+    }
+
+    .reviews-title {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .reviews-btn {
+        padding: 20px 0;
+    }
+
+    .reviews-btn button {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .reviews-block div {
+        width: 170px;
+    }
+
+    .reviews-circle {
+        padding: 25px 0;
+    }
+
+    .reviews-circle div {
+        width: 10px;
+        height: 10px;
+    }
+
+    .vacancies-title {
+        padding-top: 30px;
+    }
+
+    .faq-title {
+        padding-top: 30px;
+    }
+
+    .massage-title {
+        padding-top: 30px;
+    }
+
+    .massage-block-input {
+        width: 42%;
+        font-size: 12px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer a {
+        font-size: 10px;
+        padding: 8px 0;
+    }
+
+    .footer-block {
+        width: 23%;
+    }
+}
+
+@media (max-width: 450px) {
+    .hamburger-menu{
+        width: 60%;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+    .service-p {
+        font-size: 13px;
+    }
+
+    .service-block p {
+        font-size: 8px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .service-block {
+        width: 195px;
+        height: 170px;
+    }
+
+    .project-block {
+        flex-direction: column;
+    }
+    .project-block div {
+        width: 250px;
+        height: 229px;
+        margin-top: 20px;
+    }
+
+    .project-btn-circle div {
+        margin: 0 10px;
+    }
+
+    .techno-title {
+        font-size: 23px;
+    }
+
+    .reviews-block {
+        flex-direction: column;
+    }
+
+    .reviews-block div {
+        width: 240px;
+        padding: 10px 0;
+    }
+
+    .reviews {
+        padding: 10px 0;
+    }
+
+    .vacancies h1 {
+        font-size: 20px;
+    }
+
+    .vacancies {
+        padding: 20px 0;
+    }
+
+    .faq-block h1 {
+        font-size: 16px;
+    }
+
+    .massage-block-input {
+        width: 41%;
+        font-size: 10px;
+    }
+
+    .footer-block {
+        width: 30%;
+    }
+
+
+
+}
+
+@media (max-width: 400px) {
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .service-title {
+        font-size: 22px;
+    }
+
+    .service-p {
+        font-size: 11px;
+    }
+
+    .service-block {
+        width: 175px;
+        height: 170px;
+    }
+
+    .service-block h1 {
+        font-size: 18px;
+        padding-top: 55px;
+    }
+
+    .techno-title {
+        font-size: 22px;
+    }
+
+    .techno-label div label {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .reviews-title {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    .reviews-btn button {
+        padding: 8px 30px;
+        font-size: 13px;
+    }
+
+    .reviews-btn {
+        padding: 10px 0;
+    }
+
+    .vacancies-title {
+        font-size: 22px;
+    }
+
+    .vacancies h1 {
+        font-size: 15px;
+        padding: 15px 0;
+    }
+
+    .faq-title {
+        padding-top: 22px;
+    }
+
+    .faq {
+        padding: 15px 0;
+    }
+
+    .massage-title {
+        padding-top: 22px;
+    }
+
+    .massage-block-input {
+        width: 90%;
+        height: 40px;
+    }
+
+    .massage-block-input1 {
+        width: 90%;
+        height: 120px;
+    }
+
+    .footer-block {
+        width: 35%;
+        margin: 0 10px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .footer-loc {
+        padding-top:10px;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .service {
+        justify-content: center;
+    }
+
+    .service-block {
+        width: 240px;
+        height: 185px;
+    }
+
+    .service-block p {
+        font-size: 10px;
+    }
+
+    .techno-title {
+        font-size: 21px;
+    }
+
+    .techno-label label {
+        font-size: 13px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .hero button {
+        font-size: 12px;
+    }
+
+    .service-p {
+        font-size: 9px;
+    }
+
+    .techno-title {
+        font-size: 18px;
+    }
+
+    .techno-block div {
+        margin: 10px 18px;
+    }
+}
+
